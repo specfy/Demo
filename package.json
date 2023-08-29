@@ -1,0 +1,27 @@
+{
+  "name": "specfy-demo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Samuel Bodin",
+  "type": "module",
+  "scripts": {
+    "test": "turbo run test",
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specfy/demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/specfy/demo/issues"
+  },
+  "homepage": "https://github.com/specfy/demo#readme",
+  "devDependencies": {
+    "@supabase/postgrest-js": "1.8.4",
+    "algoliasearch": "4.19.1",
+    "auth0": "3.7.0",
+    "openai": "4.3.1",
+    "resend": "1.0.0"
+  }
+}
